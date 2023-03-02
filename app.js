@@ -50,7 +50,7 @@ function ingresarMontoMali() {
         if((monto + cuentas[0].saldo) <= 990) {
             alert('Ingresaste $'+monto+'.00 MXN'+'. Tu nuevo saldo es de: $'+ (monto + cuentas[0].saldo)+'.00 MXN')
         }else{
-            alert('Por favor intenta de nuevo. Tu saldo no puede ser mayor a $990.00 MXN')
+            alert('Tu saldo no puede ser mayor a $990.00 MXN. Por favor intenta de nuevo.')
         }
     }else{    
         alert('Por favor ingresa un número válido.');
@@ -66,7 +66,7 @@ function retirarMontoMali() {
         if ((cuentas[0].saldo - retiro >= 10)) {
             alert('Retiraste $'+retiro+'.00 MXN'+'. Tu nuevo saldo es de: $'+(cuentas[0].saldo - retiro)+'.00 MXN')
         }else{
-            alert('Por favor intenta de nuevo. Tu saldo no puede ser menos a $10.00 MXN')
+            alert('Tu saldo no puede ser menor a $10.00 MXN. Por favor intenta de nuevo.')
         }
     }else{    
         alert('Por favor ingresa un número válido.');
@@ -87,7 +87,7 @@ function ingresarMontoGera() {
         if((monto + cuentas[1].saldo) <= 990) {
             alert('Ingresaste $'+monto+'.00 MXN'+'. Tu nuevo saldo es de: $'+ (monto + cuentas[1].saldo)+'.00 MXN')
         }else{
-            alert('Por favor intenta de nuevo. Tu saldo no puede ser mayor a $990.00 MXN')
+            alert('Tu saldo no puede ser mayor a $990.00 MXN. Por favor intenta de nuevo.')
         }
     }else{    
         alert('Por favor ingresa un número válido.');
@@ -103,7 +103,7 @@ function retirarMontoGera() {
         if ((cuentas[1].saldo - retiro >= 10)) {
             alert('Retiraste $'+retiro+'.00 MXN'+'. Tu nuevo saldo es de: $'+(cuentas[1].saldo - retiro)+'.00 MXN')
         }else{
-            alert('Por favor intenta de nuevo. Tu saldo no puede ser menos a $10.00 MXN')
+            alert('Tu saldo no puede ser menor a $10.00 MXN. Por favor intenta de nuevo.')
         }
     }else{    
         alert('Por favor ingresa un número válido.');
@@ -124,7 +124,7 @@ function ingresarMontoMaui() {
         if((monto + cuentas[2].saldo) <= 990) {
             alert('Ingresaste $'+monto+'.00 MXN'+'. Tu nuevo saldo es de: $'+ (monto + cuentas[2].saldo)+'.00 MXN')
         }else{
-            alert('Por favor intenta de nuevo. Tu saldo no puede ser mayor a $990.00 MXN')
+            alert('Tu saldo no puede ser mayor a $990.00 MXN. Por favor intenta de nuevo.')
         }
     }else{    
         alert('Por favor ingresa un número válido.');
@@ -140,7 +140,7 @@ function retirarMontoMaui() {
         if ((cuentas[2].saldo - retiro >= 10)) {
             alert('Retiraste $'+retiro+'.00 MXN'+'. Tu nuevo saldo es de: $'+(cuentas[2].saldo - retiro)+'.00 MXN')
         }else{
-            alert('Por favor intenta de nuevo. Tu saldo no puede ser menos a $10.00 MXN')
+            alert('Tu saldo no puede ser menor a $10.00 MXN. Por favor intenta de nuevo.')
         }
     }else{    
         alert('Por favor ingresa un número válido.');
