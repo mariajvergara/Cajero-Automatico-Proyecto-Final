@@ -71,7 +71,7 @@ function retirarMontoMali() {
     }else{    
         alert('Por favor ingresa un número válido.');
     }
-    if((monto + cuentas[0].saldo) <= 990) {
+    if((retiro + cuentas[0].saldo) <= 990) {
         (cuentas[0].saldo) -= retiro
     }
 }    
@@ -108,7 +108,7 @@ function retirarMontoGera() {
     }else{    
         alert('Por favor ingresa un número válido.');
     }
-    if((monto + cuentas[1].saldo) <= 990) {
+    if((retiro + cuentas[1].saldo) <= 990) {
         (cuentas[1].saldo) -= retiro
     }
 }    
@@ -145,7 +145,7 @@ function retirarMontoMaui() {
     }else{    
         alert('Por favor ingresa un número válido.');
     }
-    if((monto + cuentas[2].saldo) <= 990) {
+    if((retiro + cuentas[2].saldo) <= 990) {
         (cuentas[2].saldo) -= retiro
     }
 }    
