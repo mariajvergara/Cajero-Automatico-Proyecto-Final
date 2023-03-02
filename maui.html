@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maui</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <img class="background" src="https://images.unsplash.com/photo-1548504778-b14db6c34b04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80" alt="">
+        <div class="main-content-container main-cont-user">
+            <h3 class="subtitle">TU BANCO</h3>
+            <div class="bienvenida-title">
+                <h1 class="title-cuenta">Bienvenida</h1>
+                <h1 id="bienvenida" class="title-cuenta">Maui</h1>
+            </div>
+            <h1 class="subtitle-user">¿Que deseas hacer?</h1>
+            <div class="consultas">
+                <button onclick="saldoMaui()" class="boton btn-consultas">Consular Saldo</button>
+                <button onclick="ingresarMontoMaui()" class="boton btn-consultas">Ingresar Monto</button>
+                <button onclick="retirarMontoMaui()" class="boton btn-consultas">Retirar Monto</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
